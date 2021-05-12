@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #FFFCDC;
+    font-size: 2rem;
+    cursor: url('img/logo.png'), pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-style: italic;
+    margin: 0.5em 0 0.5em;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+}
+
+.li-solutions::marker {
+    content: '🤩'
+}
+
+.li-poll::marker {
+    content: '🗳'
+}
+
+.li-next-challenge::marker {
+    content: '🤺'
+}
+
+.li-events::marker {
+    content: '📆'
+}
+
+.li-anna-story::marker {
+    content: '🎵'
+}
+
+.li-winner::marker {
+    content: '🏆'
+}
+
+.li-join-wwdc::marker {
+    content: '💻'
+}
+
+.li-next-stream::marker {
+    content: '📺'
+}
+
+
+.column-creator {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-height: 400px;
+    border: 3px solid #2B283A;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 0px #FFFFFF);
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
